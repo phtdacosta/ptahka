@@ -1,3 +1,4 @@
+![Ptahka logo](docs/res/logo.svg)
 # **Ptah**ka
 ## **The *godlike* web framework** using almighty technologies to face modern challenges
 # `main` method in **3 lines**
@@ -29,11 +30,12 @@ Scalability is achieved thru the Makefile script available within the project. I
 Written in pure and plain C99, **Ptah**ka **API can be easily extended by any other language that extend C language**, like *C++, D, Go, Rust, Python, Lua, NodeJS* and so on, making the project reliable enough to become a solution anywhere.
 
 The **stability** of the Winsock 2 API (which was first implemented for Windows 95) **makes it perfect to be used on any Windows NT compatible (legacy ones included) project**.
-## Download and run
+## Download, build and run
 ```
-git clone https://github.com/phtdacosta/ptahka.git
-cd ptahka
-make -B all
+> git clone https://github.com/phtdacosta/ptahka.git
+> cd ptahka
+> make -B all
+> main
 ```
 ## Documentation
 The documentation is going to be written gradually, but enough information regarding the basic usage of the framework is already available in the `main` file included.
