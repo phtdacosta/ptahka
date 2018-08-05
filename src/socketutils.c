@@ -5,6 +5,8 @@
 #include <string.h>
 #include <stdio.h>
 
+#define INPORT_DEF 7070
+
 #if defined(_WIN32) || defined(_WIN64)
     #include <winsock2.h>
     #include <ws2tcpip.h>
@@ -56,8 +58,6 @@
                 dst : NULL;
     }
 #endif
-
-
 
 // Need to link with Ws2_32.lib
 // #pragma comment (lib, "Ws2_32.lib")
