@@ -1,6 +1,12 @@
 ![Ptahka logo](docs/res/logo.svg)
 # **Ptah**ka
 ## **The *godlike* web framework** using almighty technologies to face modern challenges
+[![HitCount](http://hits.dwyl.io/phtdacosta/ptahka.svg)](http://hits.dwyl.io/phtdacosta/ptahka)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/phtdacosta/ptahka.svg)](http://isitmaintained.com/project/phtdacosta/ptahka "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/phtdacosta/ptahka.svg)](http://isitmaintained.com/project/phtdacosta/ptahka "Percentage of issues still open")
+[![Ptahka integration status](https://img.shields.io/badge/Windows-supported-brightgreen.svg)](https://github.com/phtdacosta/ptahka "Ptahka integration status")
+[![Ptahka integration status](https://img.shields.io/badge/Unix-unsupported-red.svg)](https://github.com/phtdacosta/ptahka "Ptahka integration status")
+
 # `main` method in **3 lines**
 ```c
 // Group where all routes are added
@@ -17,9 +23,13 @@ initservice(&parserequest, table, &executeroute, NULL);
 ``` 
 
 # **Brutally fast**, period.
-**Ptah**ka is brutally fast. **Built from scratch** using just plain C language and specially written functions on top of the most performant Windows NT networking API, you can truly expect the ultimate performance available on any machine.
+**Ptah**ka is brutally fast. **Built from scratch** using just plain C language and specially written functions on top of the most performant Windows NT4 networking API, you can truly expect the ultimate performance available on any machine.
 ### Extra technical information for the geeks
-Automatically detecting multi-threading support and running on top of asynchronous IOCP sockets, **Ptah**ka grants **3.87x more performance than NodeJS** for example, which relies on the same pillars when running on Windows.
+High modularity in core aspects of a project often means easier tweaks and higher adaptability which can also leads to more performance overall.
+
+One of the two parts that composes **Ptah**ka is **[Gobio](https://github.com/phtdacosta/gobio)**, powering all low-level networking stuff, input and output strategy (further information [here](https://tangentsoft.net/wskfaq/articles/io-strategies.html)), multi-threading and the general socket behavior. Gobio **benchmarks shows 3.87x more speed than NodeJS** which relies on the same pillars when running on Windows, ouch!
+
+The second part is **[Tinfin](https://github.com/phtdacosta/tinfin)** which contains useful specialized functions, for handling protocols of a higher level more intuitively.
 # Focused on **productivity**
 The design patterns were inspired by very popular frameworks like *Flask*, *Falcon* (both written in Python) and *NodeJS*. Like those, **Ptah**ka achitecture allows developers to rapidly prototype and build server solutions, from **microservices** to **full-featured API's**.
 # Born **modular** and **scalable**
@@ -29,7 +39,7 @@ Scalability is achieved thru the Makefile script available within the project. I
 # Easily **extensible** and widely **compatible**
 Written in pure and plain C99, **Ptah**ka **API can be easily extended by any other language that extend C language**, like *C++, D, Go, Rust, Python, Lua, NodeJS* and so on, making the project reliable enough to become a solution anywhere.
 
-The **stability** of the Winsock 2 API (which was first implemented for Windows 95) **makes it perfect to be used on any Windows NT compatible (legacy ones included) project**.
+The **stability** of the Winsock 2 API (which was first implemented for Windows 95) **makes it perfect to be used on any Windows NT4 compatible (legacy ones included) project**.
 ## Download, build and run
 ```
 > git clone https://github.com/phtdacosta/ptahka.git
