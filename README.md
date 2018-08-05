@@ -50,7 +50,7 @@ The **stability** of the Winsock 2 API (which was first implemented for Windows 
 ## Documentation
 The documentation is going to be written gradually, but enough information regarding the basic usage of the framework is already available in the `main` file included.
 ## Community and purpose
-**Ptah**ka was created with community in mind. Giving developers a reliable option to create powerful web applications using native and extremely performant technologies, yet focused in productivity, simplicity and modularity, empowers the ones that will shape the digital future without forgetting stable and well-tested tools from years ago. **Faster web applications means efficient energy use on data warehouses which leads to less overall energy consumption. Performance is sustainability.** Think about that. (I will write something about this in the future!)
+**Ptah**ka was created with community in mind. Giving developers a reliable option to create native and extremely performant server applications (also focused in productivity, simplicity and modularity) let us shape better our future solutions using stable and time-tested tools. **Faster web applications means efficient energy use on data warehouses which leads to less overall energy consumption. Performance is sustainability.** Think about that. (I will write something about this in the future!)
 
 [![Join the chat at https://gitter.im/ptahka/Lobby](https://badges.gitter.im/ptahka/Lobby.svg)](https://gitter.im/ptahka/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ## License
