@@ -25,7 +25,7 @@ initservice(&parserequest, table, &executeroute, NULL);
 # **Brutally fast**, period.
 **Ptah**ka is brutally fast. **Built from scratch** using just plain C language and specially written functions on top of the most performant Windows NT4 networking API, you can truly expect the ultimate performance available on any machine.
 ### Extra technical information for the geeks
-High modularity in core aspects of a project often means easier tweaks and higher adaptability which can also leads to more performance overall.
+High modularity in core aspects of a project often means easier tweaks, higher adaptability and consequently, more performance.
 
 One of the two parts that composes **Ptah**ka is **[Gobio](https://github.com/phtdacosta/gobio)**, powering all low-level networking stuff, input and output strategy (further information [here](https://tangentsoft.net/wskfaq/articles/io-strategies.html)), multi-threading and the general socket behavior. Gobio **benchmarks shows 3.87x more speed than NodeJS** which relies on the same pillars when running on Windows, ouch!
 
