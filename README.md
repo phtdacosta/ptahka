@@ -2,7 +2,7 @@
 # **Ptah**ka
 ## **The *godlike* web framework** using almighty technologies to face modern challenges
 [![HitCount](http://hits.dwyl.io/phtdacosta/ptahka.svg)](http://hits.dwyl.io/phtdacosta/ptahka)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/phtdacosta/ptahka.svg)](http://isitmaintained.com/project/phtdacosta/ptahka "Average time to resolve an issue")
+[![Build status](https://ci.appveyor.com/api/projects/status/byeaerrdevtkwtfo/branch/master?svg=true)](https://ci.appveyor.com/project/phtdacosta/ptahka/branch/master) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/phtdacosta/ptahka.svg)](http://isitmaintained.com/project/phtdacosta/ptahka "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/phtdacosta/ptahka.svg)](http://isitmaintained.com/project/phtdacosta/ptahka "Percentage of issues still open")
 [![Ptahka integration status](https://img.shields.io/badge/Windows-supported-brightgreen.svg)](https://github.com/phtdacosta/ptahka "Ptahka integration status")
 [![Ptahka integration status](https://img.shields.io/badge/Unix-unsupported-red.svg)](https://github.com/phtdacosta/ptahka "Ptahka integration status")
