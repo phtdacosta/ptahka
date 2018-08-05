@@ -1,0 +1,32 @@
+# version format
+version: 1.0.{build}
+
+# branches to build
+branches:
+  # whitelist
+  only:
+    - master
+
+# scripts that run after cloning repository
+#install:
+
+# build worker image (VM template)
+image: Visual Studio 2017
+
+# environment variables
+environment:
+  TOOLCHAIN: x86_64-7.3.0-posix-seh-rt_v5-rev0
+
+# build platform, i.e. x86, x64, Any CPU. This setting is optional.
+platform: x64
+
+# scripts to run before build
+before_build:
+  - set PATH=C:\mingw-w64\%TOOLCHAIN%\mingw64\bin;%PATH%
+
+# to run your custom scripts instead of automatic MSBuild
+build_script:
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - dir
+  - gcc --version
+  - mingw32-make -B all
